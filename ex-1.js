@@ -82,3 +82,16 @@ let orders = [
 ];
 
 // Start coding here
+let totalPrice = 0 ;
+for (let ordersNumber of orders){
+  let key = [ordersNumber.productPrice*ordersNumber.productQuantity]
+    for (let index of key){
+      totalPrice = totalPrice + index
+    }
+  
+     
+}
+
+console.log(`Total amount of the orders: ${totalPrice} Baht`)
+
+ 
